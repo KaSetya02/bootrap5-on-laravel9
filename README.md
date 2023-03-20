@@ -16,10 +16,10 @@ composer require laravel/ui
 
 ## 3. Membuat Autentikasi Dengan Bootstrap 5
 ```
-php artisan ui boostrap
+php artisan ui bootstrap
 ```
 ```
-php artisan ui boostrap --auth
+php artisan ui bootstrap --auth
 ```
 
 ## 4. Install NPM Dan NPM Run Build Untuk Menjalankan Bootstrap 5
