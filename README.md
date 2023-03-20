@@ -1,6 +1,7 @@
 # Requirement
 - PHP 8.x.x
 - composer
+- Xampp/Laragon
 
 # Instalasi Bootsrap 5 Pada Laravel 9 
 
