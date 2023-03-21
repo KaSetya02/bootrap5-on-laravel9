@@ -66,7 +66,7 @@ npm install --save-dev vite laravel-vite-plugin
 npm remove laravel-mix && rm webpack.mix.js
 ```
 
-## Tampilan package.json setelah di setting
+### Tampilan package.json setelah di setting
 ```
 {
     "private": true,
@@ -85,4 +85,9 @@ npm remove laravel-mix && rm webpack.mix.js
         "vite": "^4.2.1"
     }
 }
+```
+
+## Buat File Baru Dengan Nama  app.js Pada Folder resouces/js/ (Hanya Khusus Pada Project Laravel Statamic Sedangkan Pada Laravel Biasa Sudah Ada Tidak Harus Buat Lagi). Kemuadian Isi File Dengan Source:
+```
+require('./bootstrap');
 ```
