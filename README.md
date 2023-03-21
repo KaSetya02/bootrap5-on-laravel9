@@ -31,11 +31,15 @@ npm install
 npm run build
 ```
 
-## 5. Pasang/Tambahkan 
+## 5. Pasang/Tambahkan Source Dibawah Pada halaman yang akan menggunakan Bootstrap 5
+### Pada Laravel Biasa
 ```
 @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 ```
-Pada halaman yang akan menggunakan Bootstrap 5
+### Pada Project Statamic
+```
+{{ vite src="resources/js/app.js|resources/sass/app.scss" }}
+```
 
 ## 6. Jalankan Project 
 ```
